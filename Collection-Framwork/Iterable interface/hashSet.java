@@ -1,0 +1,6 @@
+/**
+ * hashSet
+ */
+public class hashSet<> {
+
+}
