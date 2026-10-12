@@ -47,7 +47,8 @@ class Demo1{
         List<Integer> li = List.of(1,2,3,4,5,6,7,8);
         // System.out.println(li);
         // li.add(10);
-        // System.out.println(li);  //Error
+        // System.out.println(li);  //Error  --> li is a immutable List so that we can't do any Operation
+
         List<Integer> li2 = List.copyOf(li);
         li2.add(105);
         System.out.println(li2);
